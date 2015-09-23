@@ -1,5 +1,5 @@
 [package]
-name = "khronos"
+name    = "khronos"
 version = "0.1.0"
 authors = ["Sean Kerr <sean@code-box.org>"]
 
