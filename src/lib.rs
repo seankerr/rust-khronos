@@ -16,6 +16,7 @@
 // | Author: Sean Kerr <sean@code-box.org>                                                         |
 // +-----------------------------------------------------------------------------------------------+
 
+#![crate_name = "khronos"]
 #![allow(non_camel_case_types)]
 
 extern crate libc;
