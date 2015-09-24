@@ -1,7 +1,14 @@
 [package]
-name    = "khronos"
-version = "0.1.0"
-authors = ["Sean Kerr <sean@code-box.org>"]
+name          = "khronos"
+version       = "0.1.1"
+authors       = ["Sean Kerr <sean@code-box.org>"]
+license       = "Apache-2.0"
+description   = "Rust types for Khronos API"
+homepage      = "https://github.com/seankerr/rust-khronos"
+repository    = "https://github.com/seankerr/rust-khronos"
+readme        = "README.md"
+keywords      = ["egl", "gl", "khronos", "opengl"]
+exclude       = [".gitignore"]
 
 [dependencies]
 libc = "0.1.10"
