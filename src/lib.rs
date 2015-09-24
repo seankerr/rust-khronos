@@ -21,19 +21,23 @@
 
 extern crate libc;
 
-use libc::{ c_char,  c_uchar,
-            c_float,
-            int16_t, uint16_t,
-            int32_t, uint32_t,
-            int64_t, uint64_t };
+use libc::{ c_float,
+            int8_t,
+            int16_t,
+            int32_t,
+            int64_t,
+            uint8_t,
+            uint16_t,
+            uint32_t,
+            uint64_t };
 
 // -------------------------------------------------------------------------------------------------
 // TYPES
 // -------------------------------------------------------------------------------------------------
 
 pub type khronos_float_t  = c_float;
-pub type khronos_int8_t   = c_char;
-pub type khronos_uint8_t  = c_uchar;
+pub type khronos_int8_t   = int8_t;
+pub type khronos_uint8_t  = uint8_t;
 pub type khronos_int16_t  = int16_t;
 pub type khronos_uint16_t = uint16_t;
 pub type khronos_int32_t  = int32_t;
