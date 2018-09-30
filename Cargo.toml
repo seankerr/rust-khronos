@@ -11,4 +11,4 @@ keywords      = ["egl", "gl", "khronos", "opengl"]
 exclude       = [".gitignore"]
 
 [dependencies]
-libc = "0.1.10"
+libc = "^0.2.43"
