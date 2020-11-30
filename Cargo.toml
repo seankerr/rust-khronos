@@ -1,14 +1,12 @@
 [package]
 name          = "khronos"
-version       = "0.1.2"
+version       = "0.2.0"
 authors       = ["Sean Kerr <sean@metatomic.io>"]
 license       = "Apache-2.0"
 description   = "Rust types for Khronos API"
 homepage      = "https://github.com/seankerr/rust-khronos"
 repository    = "https://github.com/seankerr/rust-khronos"
+edition       = "2018"
 readme        = "README.md"
 keywords      = ["egl", "gl", "khronos", "opengl"]
 exclude       = [".gitignore"]
-
-[dependencies]
-libc = "0.1.10"
